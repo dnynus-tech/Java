@@ -1,0 +1,13 @@
+class p1{
+	public static void main(String[] args){
+		int num = 987654321;
+		int count=0;
+		while(num!=0){
+			count++;
+			num/=10;
+		}
+		System.out.print(num);
+		System.out.print(count);
+	}
+}
+
